@@ -1,0 +1,331 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jasmine Arrabis | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Jasmine Arrabis, an IT student and aspiring web developer."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header" id="home">
+      <div class="container nav-wrap">
+        <a href="#home" class="logo">JA</a>
+
+        <input
+          class="nav-toggle"
+          type="checkbox"
+          id="nav-toggle"
+          aria-label="Toggle navigation"
+        />
+        <label class="nav-toggle-label" for="nav-toggle" aria-label="Open navigation menu">
+          Menu
+        </label>
+
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#achievements">Achievements</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero section" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Hello, I am</p>
+          <h1 id="hero-title">Jasmine Arrabis</h1>
+          <p class="role">IT Student &amp; Aspiring Web Developer</p>
+          <p class="intro">
+            I enjoy creating clean, accessible, and responsive web experiences while
+            continuing to build my skills in design and development.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+
+        <aside class="profile-card" aria-label="Profile summary card">
+          <img
+            class="profile-image"
+            src="images/jasmine.jpg"
+            alt="Portrait of Jasmine Arrabis"
+          />
+          <div class="profile-meta">
+            <h2>Jasmine Arrabis</h2>
+            <p>IT Student &amp; Aspiring Web Developer</p>
+          </div>
+
+          <div class="mini-stats">
+            <div>
+              <span>Focus</span>
+              <strong>Web</strong>
+            </div>
+            <div>
+              <span>Learning</span>
+              <strong>Design</strong>
+            </div>
+            <div>
+              <span>Path</span>
+              <strong>IT</strong>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="about" class="section" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="eyebrow">About Me</p>
+          <h2 id="about-title">Building thoughtful digital experiences.</h2>
+        </div>
+
+        <div class="about-grid">
+          <article class="info-card">
+            <h3>IT Student</h3>
+            <p>
+              I am currently studying information technology and developing my
+              foundation in computing, systems, and digital problem solving.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <h3>Aspiring Web Developer</h3>
+            <p>
+              I am interested in web development, responsive layouts, and creating
+              user-friendly interfaces that are easy to navigate and understand.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <h3>Continuous Learning</h3>
+            <p>
+              I enjoy learning new technologies, improving my technical skills, and
+              applying practical solutions to real-world projects.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2 id="projects-title">Selected project placeholders.</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-image">
+              <img
+                src="images/lost-found.jpg"
+                alt="Preview image for the Lost and Found System project"
+              />
+            </div>
+            <div class="project-body">
+              <h3>Lost and Found System</h3>
+              <p>
+                A placeholder concept for tracking reported items, matching records,
+                and managing claim inquiries in a structured workflow.
+              </p>
+              <ul class="tag-list">
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>CRUD</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <img
+                src="images/hris.jpg"
+                alt="Preview image for the HRIS and Leave Management System project"
+              />
+            </div>
+            <div class="project-body">
+              <h3>HRIS and Leave Management System</h3>
+              <p>
+                A placeholder project idea for managing employee data, leave
+                requests, and approval records in a central system.
+              </p>
+              <ul class="tag-list">
+                <li>Laravel</li>
+                <li>MySQL</li>
+                <li>HR</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <a
+              class="project-card-link"
+              href="http://127.0.0.1:5500/index.html#home"
+              target="_blank"
+              rel="noreferrer noopener"
+              aria-label="Open Jasmine Arrabis personal portfolio website in a new tab"
+            >
+              <div class="project-image">
+                <img
+                  src="images/portfolio.jpg"
+                  alt="Jasmine Arrabis Personal Portfolio Website"
+                />
+              </div>
+
+              <div class="project-body">
+                <h3>Personal Portfolio Website</h3>
+                <p>
+                  A placeholder portfolio concept focused on responsive design,
+                  accessibility, and professional presentation of personal work.
+                </p>
+                <ul class="tag-list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Responsive</li>
+                </ul>
+              </div>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section" aria-labelledby="skills-title">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2 id="skills-title">Tools and technologies.</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Frontend Development</h3>
+            <ul class="tag-list">
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <h3>Backend Development</h3>
+            <ul class="tag-list">
+              <li>PHP</li>
+              <li>Laravel</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <h3>Database Management</h3>
+            <ul class="tag-list">
+              <li>MySQL</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <h3>Development Tools</h3>
+            <ul class="tag-list">
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>VS Code</li>
+              <li>XAMPP</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="achievements" class="section" aria-labelledby="achievements-title">
+        <div class="section-heading">
+          <p class="eyebrow">Education &amp; Achievements</p>
+          <h2 id="achievements-title">Academic and learning placeholders.</h2>
+        </div>
+
+        <div class="achievement-grid">
+          <article class="achievement-card">
+            <h3>Education</h3>
+            <ul>
+              <li><strong>School:</strong> ACLC College of Mandaue</li>
+              <li><strong>Course:</strong> Bachelor of Science in Information Technology</li>
+              <li><strong>Academic Year:</strong> 2026-2027</li>
+              <li><strong>Relevant Coursework:</strong> Web Development</li>
+            </ul>
+          </article>
+
+          <article class="achievement-card">
+            <h3>Achievements</h3>
+            <ul>
+              <li><strong>Certifications:</strong> Completion of relevant courses</li>
+              <li><strong>Awards:</strong> Robotics Competition</li>
+              <li><strong>Highlights:</strong> Academic Excellence</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section" aria-labelledby="contact-title">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Let us connect.</h2>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-panel">
+            <p>
+              I am open to learning opportunities, project collaboration, and
+              internship discussions related to web development and design.
+            </p>
+
+            <div class="contact-links">
+              <a href="mailto:jasmine.arrabis@example.com">jasmine.arrabis@example.com</a>
+              <a href="https://github.com/jasminearrabis" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com/in/jasminearrabis/" target="_blank" rel="noreferrer">LinkedIn</a>
+            </div>
+
+            <!-- Add your actual resume PDF to the assets folder before using this download link. -->
+            <a
+              href="assets/Jasmine-Arrabis-Resume.pdf"
+              class="resume-link"
+              download
+              >Download Resume</a
+            >
+          </div>
+
+          <form class="contact-form" action="#" method="post">
+            <div class="field-row">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" required />
+            </div>
+
+            <div class="field-row">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required />
+            </div>
+
+            <div class="field-row">
+              <label for="subject">Subject</label>
+              <input id="subject" name="subject" type="text" placeholder="Project inquiry" required />
+            </div>
+
+            <div class="field-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+            </div>
+
+            <div class="form-footer">
+              <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Jasmine Arrabis</p>
+      </div>
+    </footer>
+  </body>
+</html>
